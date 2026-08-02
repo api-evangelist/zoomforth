@@ -1,0 +1,16 @@
+generated: '2026-07-21'
+method: probed
+source: live HTTP probes of Zoomforth hosts
+host: zoomforth.com
+probes:
+- path: /.well-known/security.txt
+  status: 404
+  file: null
+- path: /llms.txt
+  status: 404
+  file: null
+notes: >-
+  No .well-known documents or llms.txt were found. Zoomforth is a no-code
+  microsite platform with no public API, OAuth authorization server, or
+  developer program, so OpenID/OAuth/api-catalog/ai-plugin discovery documents
+  are not expected. Absence recorded as valid data.

@@ -1,0 +1,17 @@
+generated: '2026-07-21'
+method: searched
+source: https://zoomforth.com/ (published security/compliance claims on the Zoomforth marketing site)
+company: Zoomforth
+certifications:
+- name: SOC 2 Type II
+  status: certified
+- name: GDPR
+  status: compliant
+- name: CCPA
+  status: compliant
+notes: >-
+  Zoomforth publicly states it is SOC 2 Type II certified and GDPR and CCPA
+  compliant. No dedicated trust-center portal, bug-bounty program, or
+  security.txt was found (see zoomforth-vulnerability-disclosure absence and the
+  domain-security probe). Zoomforth is a no-code microsite platform with no
+  public API surface.
